@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'test-supinfo';
+  src:
+    url('fonts/test-supinfo.ttf?4t71f1') format('truetype'),
+    url('fonts/test-supinfo.woff?4t71f1') format('woff'),
+    url('fonts/test-supinfo.svg?4t71f1#test-supinfo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'test-supinfo' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-nintendo-64:before {
+  content: "\e901";
+}
+.icon-nes:before {
+  content: "\e902";
+}
+.icon-logo-discord:before {
+  content: "\e900";
+}

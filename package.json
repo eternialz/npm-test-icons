@@ -1,0 +1,17 @@
+{
+  "name": "npm-test-icons",
+  "version": "0.0.1",
+  "description" : "Test including custom icon fonts through npm package into angular project",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternialz/npm-test-icons.git"
+  },
+  "author": "Eternialz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eternialz/npm-test-icons/issues"
+  },
+  "homepage": "https://github.com/eternialz/npm-test-icons#readme"
+}
